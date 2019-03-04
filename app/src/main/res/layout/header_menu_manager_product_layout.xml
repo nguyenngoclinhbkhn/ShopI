@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/colorWhite"
+        android:layout_height="180dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/test123"
+        android:id="@+id/imageViewManagerProduct"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quan ao"
+        android:textColor="@color/colorBlack"
+        style="@style/textViewManagerUser"
+        android:id="@+id/textViewManagerProductItem"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+</LinearLayout>

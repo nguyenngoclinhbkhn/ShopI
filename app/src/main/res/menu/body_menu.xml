@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/itemManagerUser"
+        android:title="Quản lý người dùng"
+        android:icon="@drawable/ic_person_pin"></item>
+    <item android:id="@+id/itemManagerProduct"
+        android:title="Quản lý sản phẩm"
+        android:icon="@drawable/icon_manager"></item>
+    <item android:id="@+id/itemSelledProduct"
+        android:title="Sản phẩm đã bán"
+        android:icon="@drawable/icon_shopping"></item>
+    <item android:id="@+id/itemManagerBill"
+        android:title="Quản lý đơn hàng"
+        android:icon="@drawable/icon_bill"></item>
+    <item android:title="Đăng xuất"
+        android:id="@+id/itemLogOut"
+        android:icon="@drawable/ic_action_exit"></item>
+</menu>

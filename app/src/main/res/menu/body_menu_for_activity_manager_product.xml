@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/itemAddProduct"
+        android:title="Thêm sản phẩm"
+        android:icon="@drawable/ic_note_add"></item>
+    <item android:title="Sản phẩm tồn kho"
+        android:id="@+id/itemInventoryProduct"
+        android:icon="@drawable/ic_thumb_down"></item>
+    <item android:title="Quay lại"
+        android:id="@+id/itemBackProduct"
+        android:icon="@drawable/ic_subdirectory_arrow_left"></item>
+
+</menu>

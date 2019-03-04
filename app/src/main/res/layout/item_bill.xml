@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="3dp"
+    android:layout_margin="5dp"
+    android:layout_height="38dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayoutBill"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:textSize="15dp"
+            android:id="@+id/textViewNameProductBill"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorBlack"
+            android:text="Tên sản phẩm"/>
+        <TextView
+            android:layout_width="0dp"
+            android:textColor="@color/colorBlack"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:id="@+id/textViewQuantityProductBill"
+            android:gravity="center_vertical"
+            android:textSize="15dp"
+            android:text="Số lượng"/>
+        <TextView
+            android:layout_width="0dp"
+            android:textSize="15dp"
+            android:id="@+id/textViewSumPriceBill"
+            android:textColor="@color/colorBlack"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_weight="3"
+            android:text="Tổng tiền"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:id="@+id/imageViewBill"
+            android:src="@drawable/ic_thumb_up"/>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

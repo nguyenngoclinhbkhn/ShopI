@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:backgroundTint="@color/colorWhite"
+    android:background="@color/colorWhite"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorRed"
+        android:id="@+id/toolbarDetailBill">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:text="Chi tiết đơn hàng"
+                android:textColor="@color/colorWhite"
+                android:gravity="center_vertical"
+                android:textSize="25dp"
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorBlack"
+            android:text="Tên sản phẩm"/>
+        <TextView
+            android:layout_width="0dp"
+            android:textColor="@color/colorBlack"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textSize="15dp"
+            android:text="Số lượng"/>
+        <TextView
+            android:layout_width="0dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_weight="3"
+            android:text="Tổng tiền"/>
+        <TextView
+            android:layout_width="0dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_weight="4"
+            android:text="Tình trạng"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:textSize="15dp"
+            android:id="@+id/textViewNameProductDetailBill"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorBlack"
+            android:text="Tên sản phẩm"/>
+        <TextView
+            android:layout_width="0dp"
+            android:textColor="@color/colorBlack"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:id="@+id/textViewQuantityProductDetailBill"
+            android:gravity="center_vertical"
+            android:textSize="15dp"
+            android:text="Số lượng"/>
+        <TextView
+            android:layout_width="0dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorBlack"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_weight="3"
+            android:id="@+id/textViewSumPriceDetailBill"
+            android:text="Tổng tiền"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:textColor="@color/colorBlack"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_weight="4"
+            android:id="@+id/imageViewStatusProductDetailBill"
+            android:src="@drawable/ic_thumb_down"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Quay lại"
+            android:background="@drawable/background_btn_activity_login"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/buttonBackDetailBill"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:text="Xử lý đơn hàng"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/background_btn_activity_login"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:id="@+id/buttonOkDetailBill"/>
+    </LinearLayout>
+
+</LinearLayout>

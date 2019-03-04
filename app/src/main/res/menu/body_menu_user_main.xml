@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemClothing"
+        android:icon="@drawable/icon_clothing"
+        android:title="Quần áo thể thao"></item>
+
+    <item
+        android:id="@+id/itemItem"
+        android:icon="@drawable/icon_tool"
+        android:title="Phụ kiện thể thao"></item>
+    <item
+        android:id="@+id/itemAccount"
+        android:icon="@drawable/icon_account"
+        android:title="Thông tin tài khoản"></item>
+
+    <item android:id="@+id/itemEditAccountUser"
+        android:icon="@drawable/ic_action_exit"
+        android:title="Đăng xuất"></item>
+</menu>

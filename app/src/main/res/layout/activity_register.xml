@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbarRegister"
+        android:background="@color/colorRed">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Đăng ký tài khoản"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp"
+                android:id="@+id/textViewRegisterLayout"
+                android:textStyle="bold"
+                android:gravity="center_vertical"/>
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_action_exit"
+                android:id="@+id/imageButtonBackLogin"
+                android:background="@color/colorRed"
+                app:layout_constraintEnd_toEndOf="parent"/>
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/editTextUserNameAccount"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:fontFamily="monospace"
+        android:maxLines="1"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Nhập tên bạn . . . . ." />
+    <EditText
+        android:id="@+id/editTextUserNameRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:maxLines="1"
+        android:layout_margin="8dp"
+        android:layout_marginTop="10dp"
+        android:hint="Nhập tài khoản . . . . ." />
+
+    <EditText
+        android:id="@+id/editTextPassRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:maxLines="1"
+        android:layout_margin="8dp"
+        android:layout_marginTop="10dp"
+        android:hint="Nhập mật khẩu . . . . ."
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:fontFamily="monospace"
+        android:layout_margin="8dp"
+        android:layout_marginTop="10dp"
+        android:hint="Nhập số điện thoại . . . . ."
+        android:inputType="number"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnRegisterAccount"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorWhite"
+            android:layout_weight="1"
+            android:background="@drawable/background_btn_activity_login"
+            android:text="Đăng ký"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnCancelRegisterAccount"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/background_btn_activity_login"
+            android:text="Hủy"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+
+</LinearLayout>

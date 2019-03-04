@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "643120423624",
+    "firebase_url": "https://shopii-d40cf.firebaseio.com",
+    "project_id": "shopii-d40cf",
+    "storage_bucket": "shopii-d40cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643120423624:android:add46a0b56c5f015",
+        "android_client_info": {
+          "package_name": "com.example.nguyenngoclinh.shopi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "643120423624-44oktfkn4b22spmn5ba43ssg0ff9k3jl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nguyenngoclinh.shopi",
+            "certificate_hash": "b54f48363b94fc2ac0fd5cfdffba02c60247fba5"
+          }
+        },
+        {
+          "client_id": "643120423624-5sttnijfla7j288cbfd74cfnhojdhh7t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbsO5c-CgWdAyD4-pmk7Ew0ZJcg9CSuHs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "643120423624-5sttnijfla7j288cbfd74cfnhojdhh7t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

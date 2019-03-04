@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/textViewManagerUser"
+        android:layout_margin="8dp"
+        android:fontFamily="monospace"
+        android:maxLines="1"
+        android:textSize="15dp"
+        android:hint="Nhập tên sản phẩm . . . "
+        android:id="@+id/editTextNameProduct" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:maxLines="1"
+        android:fontFamily="monospace"
+        android:textSize="15dp"
+        style="@style/textViewManagerUser"
+        android:hint="Nhập giá sản phẩm . . . "
+        android:id="@+id/editTextPriceProduct"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:maxLines="1"
+        android:textSize="15dp"
+        android:fontFamily="monospace"
+        style="@style/textViewManagerUser"
+        android:hint="Nhập số lượng sản phẩm . . . "
+        android:inputType="number"
+        android:id="@+id/editTextQuantity"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/textViewKindOfProduct"
+        style="@style/textViewManagerUser"
+        android:textSize="20dp"
+        android:text="Quan ao"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:scaleType="fitCenter"
+            android:background="@color/colorGray"
+            android:id="@+id/imageViewProduct"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_photo_camera"
+                android:layout_gravity="center"
+                android:id="@+id/imageBtnTakePhotoProduct"
+                android:scaleType="centerCrop"/>
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButtonChooseImage"
+                android:src="@drawable/ic_collections"
+                android:scaleType="centerCrop"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="Thêm"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:layout_margin="10dp"
+            android:id="@+id/btnAddProduct"
+            android:background="@drawable/background_btn_activity_login"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="Hủy"
+            android:textColor="@color/colorWhite"
+            android:textAllCaps="false"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_btn_activity_login"
+            android:id="@+id/btnCancelProduct"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/imageViewTest"/>
+
+</LinearLayout>
